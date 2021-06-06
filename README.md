@@ -41,6 +41,16 @@ Congratulations your Library/Package is Published Successfully!! You might also 
 https://pypi.org/project/AreaOfFigs/
 
 
+If you want to upload through Git repo,
+Add this code after import statements
+```python
+here = os.path.abspath(os.path.dirname(__file__))
+
+with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
+    long_description = "\n" + fh.read()
+```
+After add this code you have to add an Readme.md file and the just follow the commands above.
+
 ## Usage
 Watch the full [tutorial](https://youtu.be/43VD7zH5iPY) on our youtube channel to know the complete setup. 
 YT Channel: [Developer Gautam](https://www.youtube.com/c/DeveloperGautam)
