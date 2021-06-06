@@ -38,10 +38,11 @@ python -m twine upload dist/*
 
 
 Congratulations your Library/Package is Published Successfully!! You might also got a link like this:
+https://pypi.org/project/AreaOfFigs/
 
 
 ## Usage
-Watch the full [tutorial](https://youtu.be/BiQwZA6CGrk) on our youtube channel to know the complete setup. 
+Watch the full [tutorial](https://youtu.be/43VD7zH5iPY) on our youtube channel to know the complete setup. 
 YT Channel: [Developer Gautam](https://www.youtube.com/c/DeveloperGautam)
 
 ## Contributing
